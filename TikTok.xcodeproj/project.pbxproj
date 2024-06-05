@@ -10,9 +10,16 @@
 		F14C54D22C09E2140006A0EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C54D12C09E2140006A0EE /* AppDelegate.swift */; };
 		F14C54D42C09E2140006A0EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C54D32C09E2140006A0EE /* SceneDelegate.swift */; };
 		F14C54D62C09E2140006A0EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C54D52C09E2140006A0EE /* ViewController.swift */; };
-		F14C54D92C09E2140006A0EE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F14C54D82C09E2140006A0EE /* Base */; };
 		F14C54DB2C09E2160006A0EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F14C54DA2C09E2160006A0EE /* Assets.xcassets */; };
 		F14C54DE2C09E2160006A0EE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F14C54DD2C09E2160006A0EE /* Base */; };
+		F14C54E72C09EB920006A0EE /* FirstLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C54E62C09EB920006A0EE /* FirstLaunchViewController.swift */; };
+		F14C54EA2C0A10EA0006A0EE /* SignInAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C54E92C0A10EA0006A0EE /* SignInAccountViewController.swift */; };
+		F14C54ED2C0A3A8D0006A0EE /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C54EC2C0A3A8D0006A0EE /* MainScreenViewController.swift */; };
+		F14C54F02C0A3B2A0006A0EE /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C54EF2C0A3B2A0006A0EE /* FeedViewController.swift */; };
+		F14C54F32C0A3B720006A0EE /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C54F22C0A3B720006A0EE /* FriendsViewController.swift */; };
+		F14C54F82C0A3B8A0006A0EE /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C54F72C0A3B8A0006A0EE /* InboxViewController.swift */; };
+		F14C54FA2C0A3B960006A0EE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C54F92C0A3B960006A0EE /* ProfileViewController.swift */; };
+		F14C54FD2C0A3FC10006A0EE /* FeedVideoCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C54FC2C0A3FC10006A0EE /* FeedVideoCellCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +27,17 @@
 		F14C54D12C09E2140006A0EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F14C54D32C09E2140006A0EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F14C54D52C09E2140006A0EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F14C54D82C09E2140006A0EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F14C54DA2C09E2160006A0EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F14C54DD2C09E2160006A0EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F14C54DF2C09E2160006A0EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F14C54E62C09EB920006A0EE /* FirstLaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLaunchViewController.swift; sourceTree = "<group>"; };
+		F14C54E92C0A10EA0006A0EE /* SignInAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInAccountViewController.swift; sourceTree = "<group>"; };
+		F14C54EC2C0A3A8D0006A0EE /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		F14C54EF2C0A3B2A0006A0EE /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		F14C54F22C0A3B720006A0EE /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		F14C54F72C0A3B8A0006A0EE /* InboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
+		F14C54F92C0A3B960006A0EE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F14C54FC2C0A3FC10006A0EE /* FeedVideoCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVideoCellCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,62 @@
 		F14C54D02C09E2140006A0EE /* TikTok */ = {
 			isa = PBXGroup;
 			children = (
+				F14C54EE2C0A3AB00006A0EE /* Extensions */,
+				F14C54E52C09E8170006A0EE /* Controloler */,
 				F14C54D12C09E2140006A0EE /* AppDelegate.swift */,
 				F14C54D32C09E2140006A0EE /* SceneDelegate.swift */,
 				F14C54D52C09E2140006A0EE /* ViewController.swift */,
-				F14C54D72C09E2140006A0EE /* Main.storyboard */,
 				F14C54DA2C09E2160006A0EE /* Assets.xcassets */,
 				F14C54DC2C09E2160006A0EE /* LaunchScreen.storyboard */,
 				F14C54DF2C09E2160006A0EE /* Info.plist */,
 			);
 			path = TikTok;
+			sourceTree = "<group>";
+		};
+		F14C54E52C09E8170006A0EE /* Controloler */ = {
+			isa = PBXGroup;
+			children = (
+				F14C54EB2C0A3A840006A0EE /* Main */,
+				F14C54E82C0A10CF0006A0EE /* Start */,
+			);
+			path = Controloler;
+			sourceTree = "<group>";
+		};
+		F14C54E82C0A10CF0006A0EE /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				F14C54E62C09EB920006A0EE /* FirstLaunchViewController.swift */,
+				F14C54E92C0A10EA0006A0EE /* SignInAccountViewController.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		F14C54EB2C0A3A840006A0EE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F14C54FB2C0A3FAB0006A0EE /* Feed */,
+				F14C54EC2C0A3A8D0006A0EE /* MainScreenViewController.swift */,
+				F14C54F22C0A3B720006A0EE /* FriendsViewController.swift */,
+				F14C54F72C0A3B8A0006A0EE /* InboxViewController.swift */,
+				F14C54F92C0A3B960006A0EE /* ProfileViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F14C54EE2C0A3AB00006A0EE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F14C54FB2C0A3FAB0006A0EE /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				F14C54EF2C0A3B2A0006A0EE /* FeedViewController.swift */,
+				F14C54FC2C0A3FC10006A0EE /* FeedVideoCellCollectionViewCell.swift */,
+			);
+			path = Feed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +188,6 @@
 			files = (
 				F14C54DB2C09E2160006A0EE /* Assets.xcassets in Resources */,
 				F14C54DE2C09E2160006A0EE /* Base in Resources */,
-				F14C54D92C09E2140006A0EE /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +198,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F14C54F32C0A3B720006A0EE /* FriendsViewController.swift in Sources */,
+				F14C54FD2C0A3FC10006A0EE /* FeedVideoCellCollectionViewCell.swift in Sources */,
+				F14C54E72C09EB920006A0EE /* FirstLaunchViewController.swift in Sources */,
+				F14C54FA2C0A3B960006A0EE /* ProfileViewController.swift in Sources */,
 				F14C54D62C09E2140006A0EE /* ViewController.swift in Sources */,
 				F14C54D22C09E2140006A0EE /* AppDelegate.swift in Sources */,
+				F14C54F82C0A3B8A0006A0EE /* InboxViewController.swift in Sources */,
+				F14C54EA2C0A10EA0006A0EE /* SignInAccountViewController.swift in Sources */,
+				F14C54ED2C0A3A8D0006A0EE /* MainScreenViewController.swift in Sources */,
 				F14C54D42C09E2140006A0EE /* SceneDelegate.swift in Sources */,
+				F14C54F02C0A3B2A0006A0EE /* FeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F14C54D72C09E2140006A0EE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F14C54D82C09E2140006A0EE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F14C54DC2C09E2160006A0EE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +357,6 @@
 				INFOPLIST_FILE = TikTok/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +384,6 @@
 				INFOPLIST_FILE = TikTok/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
