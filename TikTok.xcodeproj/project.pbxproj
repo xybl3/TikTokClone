@@ -38,6 +38,7 @@
 		F14C54F72C0A3B8A0006A0EE /* InboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
 		F14C54F92C0A3B960006A0EE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		F14C54FC2C0A3FC10006A0EE /* FeedVideoCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVideoCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		F166A8882C10A36700515EFD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		F14C54C52C09E2140006A0EE = {
 			isa = PBXGroup;
 			children = (
+				F166A8882C10A36700515EFD /* README.md */,
 				F14C54D02C09E2140006A0EE /* TikTok */,
 				F14C54CF2C09E2140006A0EE /* Products */,
 			);
